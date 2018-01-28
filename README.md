@@ -1,4 +1,4 @@
-# Go Application Platform
+# Go Application Platform Project
 Repository for the application "Go Application Platform" (Google Engine) using containerized environments
 
 ## Programming language
