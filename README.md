@@ -1,5 +1,5 @@
 # Go Application Platform
-Repo for the application "Go Application Platform" (Google Engine) using containerized environments
+Repository for the application "Go Application Platform" (Google Engine) using containerized environments
 
 ## Programming language
 ```[go]
