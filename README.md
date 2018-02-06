@@ -24,4 +24,4 @@ Repository for the application "Go Application Platform" (Google Engine) using c
 
 
 **Juan Carlos Olvera González**
->*Amo y señor Developer, Computer Systems Engineering, UDLAP*
+>*Junior Developer, Computer Systems Engineering, UDLAP*
