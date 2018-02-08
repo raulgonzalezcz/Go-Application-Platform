@@ -1,5 +1,5 @@
 # Go Application Platform Project
-Repository for the application "Go Application Platform" (Google Engine) using containerized environments
+Repository for the application "Go Application Platform" (Google Engine) using containerized environments. Prject proposed to understand Cloud Computing.
 
 ## Programming language
 ```[go]
