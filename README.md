@@ -16,7 +16,7 @@ Repository for the application "Go Application Platform" (Google Engine) using c
 
 
 **Germán Marín Herrera**
->*Senior Developer, Computer Systems Engineering, UDLAP*
+>*Senior Developer, probando probando Computer Systems Engineering, UDLAP*
 
 
 **Gelio Castro Gracida**
