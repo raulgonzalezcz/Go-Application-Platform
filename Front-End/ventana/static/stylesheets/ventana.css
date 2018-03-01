@@ -1,0 +1,58 @@
+body {
+    background-color: lightcyan;
+}
+
+h1 {
+	font-family: "Bangla MN";
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+
+.myPath {
+    width:1000px;
+   height: 50px;
+    font-size: 20px; 
+
+}
+
+.myBotonExaminar {
+    width: 110px;
+    height: 55px;
+    font-size: 20px;
+}
+
+.myBotonAceptar {
+    width: 110px;
+    height: 55px;
+    font-size: 16px;
+    text-align: center;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+#Examinar{
+	text-align: center;
+	padding: 60px;
+}
+
+#Aceptar{
+	padding-top: 50px;
+	text-align: center;
+
+}	
+
+.Imagen{
+	position: fixed;
+	bottom: 0px;
+	left: 33%;
+    height: 35%;
+}	
+
