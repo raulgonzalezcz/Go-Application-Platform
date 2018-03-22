@@ -1,6 +1,6 @@
 function isEmpty() {
     if (document.getElementById("texto").value == "") {
-        alert("estas todo pendejo");
+        alert("Ingresa un nombre valido.");
     }
     else {
 
