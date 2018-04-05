@@ -1,0 +1,394 @@
+@import url(font-awesome.min.css);
+@import url("http://fonts.googleapis.com/css?family=Raleway:300,700");
+
+/*
+	Typify by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/* Reset */
+
+	html, body, div, h1, h2, h3, p, strong, var, b, u, i, center, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+	body {
+		line-height: 1;
+	}
+
+	ol, ul {
+		list-style: none;
+	}
+
+	
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	body {
+		-webkit-text-size-adjust: none;
+	}
+
+/* Box Model */
+
+	*, *:before, *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+
+/* Footer */
+
+	#footer {
+		background-color: #f7f7f7;
+		color: #444;
+		/padding: 5em 0 4em 0;/
+		position: relative;
+	}
+
+		#footer input, #footer select, #footer textarea {
+			color: #555;
+		}
+
+		#footer a {
+			color: #00cdcf;
+		}
+
+		#footer strong, #footer b {
+			color: #555;
+		}
+
+		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+			color: #555;
+		}
+
+		#footer blockquote {
+			border-left-color: #ddd;
+		}
+
+		#footer code {
+			background: #fff;
+			border-color: #ddd;
+		}
+
+		#footer hr {
+			border-bottom-color: #ddd;
+		}
+
+		#footer:before {
+			background-color: #ddd;
+			content: '';
+			height: 1px;
+			left: 30%;
+			position: absolute;
+			top: 0;
+			width: 40%;
+		}
+
+		#footer .copyright {
+			color: #bbb;
+			font-size: 0.9em;
+			margin: 0 0 2em 0;
+			padding: 0;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+			#footer .copyright li {
+				border-left: solid 1px #e3e3e3;
+				display: inline-block;
+				list-style: none;
+				margin-left: 1.5em;
+				padding-left: 1.5em;
+			}
+
+				#footer .copyright li:first-child {
+					border-left: 0;
+					margin-left: 0;
+					padding-left: 0;
+				}
+
+		@media screen and (max-width: 1280px) {
+
+			#footer {
+				padding: 4em 2em 3em 2em;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#footer {
+				padding: 3em 2em 2em 2em;
+			}
+
+				#footer:before {
+					width: 75%;
+					left: 12.5%;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#footer {
+				padding: 3em 2em 1em 2em;
+			}
+
+				#footer:before {
+					width: 85%;
+					left: 7.5%;
+				}
+
+				#footer .copyright li {
+					display: block;
+					border-left: 0;
+					margin-left: 0;
+					padding-left: 0;
+				}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#footer {
+				padding: 2em 1em 0.1em 1em;
+			}
+
+		}
+
+
+
+
+/* Type */
+
+	body {
+		background-color: #fff;
+		color: #444;
+	}
+
+	body, input, select, textarea {
+		font-family: "Raleway", Arial, Helvetica, sans-serif;
+		font-size: 14pt;
+		font-weight: 300;
+		letter-spacing: 0.09em;
+		line-height: 1.65em;
+	}
+
+		
+
+	
+
+	p {
+		margin: 0 0 2em 0;
+	}
+
+	h1, h2, h3 {
+		font-weight: 300;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+		text-transform: uppercase;
+	}
+
+		h1 a, h2 a, h3 a{
+			color: inherit;
+			text-decoration: none;
+		}
+
+	h2 {
+		font-size: 1.6em;
+		line-height: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.2em;
+		line-height: 1.5em;
+	}
+
+	
+
+
+/* Button */
+
+	
+	.button {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		border-radius: 0;
+		border: 0;
+		cursor: pointer;
+		display: inline-block;
+		height: 2.85em;
+		line-height: 2.95em;
+		padding: 0 1.5em;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+	}
+
+		
+	.button {
+		background-color: #f7f7f7;
+		color: #555 !important;
+	}
+
+/* Section/Article */
+
+	section.special, article.special, header.special {
+		text-align: center;
+	}
+
+	header {
+		margin-bottom: 1em;
+	}
+
+		header p {
+			position: relative;
+			margin: 0 0 1.5em 0;
+			text-transform: uppercase;
+		}
+
+		header h2, header h3 {
+			display: inline-block;
+			padding-bottom: 0.4em;
+			border-bottom-style: double;
+			border-bottom-width: 4px;
+		}
+
+		header h2 + p {
+			font-size: 1.25em;
+			margin-top: -0.5em;
+			line-height: 1.5em;
+		}
+
+		header h3 + p {
+			font-size: 1.1em;
+			line-height: 1.5em;
+		}
+
+		header.major {
+			margin-bottom: 4em;
+		}
+
+	
+/* Feature */
+
+	.features {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		margin-bottom: 2em;
+	}
+
+	.feature {
+		padding: 2em 2em 0.1em 2em;
+		border-style: solid;
+		border-width: 1px;
+		margin-left: -1px;
+		margin-top: -1px;
+		width: 33.33333%;
+	}
+
+		.feature .fa {
+			font-size: 2.8em;
+			margin-bottom: 0.7em;
+		}
+
+		
+		
+
+	.feature {
+		border-color: #e3e3e3;
+	}
+
+		.feature .fa {
+			color: #00cdcf;
+		}
+		
+
+/* Banner */
+
+	#banner {
+		background-color: #00cdcf;
+		color: #ffffff;
+		padding: 8em 0 6em 0;
+		text-align: center;
+	}
+
+		#banner input, #banner select, #banner textarea {
+			color: #00ff00;
+		}
+
+		#banner a {
+			color: #00ff00;
+		}
+
+		#banner strong, #banner b {
+			color: #ffffff;
+		}
+
+		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+			color: #ffffff;
+		}
+
+		#banner blockquote {
+			border-left-color: rgba(100, 100, 100, 0.25);
+		}
+
+
+				
+			#banner input[type="submit"].special,
+			#banner input[type="reset"].special,
+			#banner input[type="button"].special,
+			#banner button.special,
+			#banner .button.special {
+				background-color: #009a9c;
+				color: #fff !important;
+			}
+
+				
+
+		#banner h2 {
+			border-style: double solid;
+			border-width: 4px 1px;
+			font-size: 2.4em;
+			line-height: 1.35em;
+			margin: 0 auto 1em;
+			padding: 1.1em;
+			position: relative;
+			width: 40%;
+		}
+
+		#banner p {
+			font-size: 1.5em;
+			text-transform: uppercase;
+		}
