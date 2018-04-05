@@ -8,7 +8,7 @@ Repository for the application "Go Application Platform" (Google Engine) using c
 
 ## Authors
 **Raúl González Cruz**
->*Software Architect, Computer Systems Engineering, UDLAP*
+>*Software Architect, Computer Systems Engineering, UDLAP se la come*
 
 
 **Guillermo del Río Acevedo**
