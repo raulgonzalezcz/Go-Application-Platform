@@ -5,7 +5,6 @@ function isEmpty() {
     else {
         var appName = document.getElementById("texto").value;
         appName=appName.replace(/ /g,"-");
-        alert(appName)
 
         document.getElementById("myForm").submit();
     }
